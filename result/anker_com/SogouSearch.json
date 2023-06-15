@@ -1,0 +1,13 @@
+{
+    "name": "Search",
+    "source": "SogouSearch",
+    "total": 6,
+    "emails": [
+        "info@atlasanker.com",
+        "cn@anker.com",
+        "support@anker.com",
+        "info@5-anker.com",
+        "jp-dm@anker.com",
+        "support@ianker.com"
+    ]
+}
