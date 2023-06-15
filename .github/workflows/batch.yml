@@ -1,11 +1,11 @@
-name: grab brand email accounts from shein.com
+name: batch grab email accounts from domain name text file
 on:
   workflow_dispatch:
     inputs:
-      URL:
-        description: your target brand domain like this "shein.com"
-        type: enviroment
-        required: true 
+      filename:
+        description: domain list text file name,like domains.txt
+        type: string
+        required: true        
 jobs:
   build-ubuntu:
     runs-on: ubuntu-latest
@@ -24,9 +24,10 @@ jobs:
           pip install -r requirements.txt
       - name: run demo
         run: |
-          bash run.sh
+          bash batch_run.sh
         env:
-          URL: '${{ github.event.inputs.URL }}'
+          filename: '${{ github.event.inputs.filename }}'
+
       - name: Config git
         run: >
           git config --local user.email "ations@github.com"

@@ -16,7 +16,7 @@ rule_func = list()
 
 emails = list()
 proxy_str = os.getenv('proxy')
-
+proxy=None
 if proxy_str:
     if  not 'socks' in proxy_str:
         proxy = {'http': '127.0.0.1:2333', 'https': '127.0.0.1:2333'}
@@ -25,3 +25,5 @@ if proxy_str:
     else:
         proxy='socks5://127.0.0.1:1080'
         proxy=proxy_str
+else:
+    proxy=None
