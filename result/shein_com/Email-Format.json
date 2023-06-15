@@ -1,0 +1,13 @@
+{
+    "name": "Datasets",
+    "source": "Email-Format",
+    "total": 6,
+    "emails": [
+        "weldon@shein.com",
+        "fester@shein.com",
+        "pasquale@shein.com",
+        "bradford@shein.com",
+        "sheldon@shein.com",
+        "alfonso@shein.com"
+    ]
+}

@@ -2,6 +2,7 @@
 
 <h3 align="center" > A powerful Email Collect tool</h3>
 
+<<<<<<< HEAD
 ## 0x1 介绍
 
 :astonished: `EmailAll` is a powerful Email Collect tool —— 一款强大的邮箱收集工具
@@ -41,6 +42,11 @@ proxy配置在 [setting.py](config/setting.py)文件
 
 ```python
 proxy={'http': '127.0.0.1:2333', 'https': '127.0.0.1:2333'}
+=======
+## search against bing 
+
+### 执行命令
+>>>>>>> 2f024ee93c9b56c20ff7af68d3ac5c4ba0c885ff
 ```
 
 API配置在 [api.py](config/api.py)文件
@@ -60,6 +66,7 @@ snov_password = ''
 # https://phonebook.cz/
 pb_key = ''
 ```
+<<<<<<< HEAD
 
 - `veryvp`和`snov`去网站免费注册
 - `GitHub`的token去设置里创建一个即可
@@ -122,4 +129,18 @@ pb_key = ''
 ## 0x7 免责声明
 
 ​	本工具仅能在取得足够合法授权的企业安全建设中使用，在使用本工具过程中，您应确保自己所有行为符合当地的法律法规。 如您在使用本工具的过程中存在任何非法行为，您将自行承担所有后果，本工具所有开发者和所有贡献者不承担任何法律及连带责任。 除非您已充分阅读、完全理解并接受本协议所有条款，否则，请您不要安装并使用本工具。 您的使用行为或者您以其他任何明示或者默示方式表示接受本协议的，即视为您已阅读并同意本协议的约束。
+=======
+![result_example](result_example.jpg)
+
+
+
+https://github.com/wanghaisheng/creator-email-collector-gui-trial
+
+
+https://github.com/wanghaisheng/Email-Crawler-Lead-Generator
+
+https://github.com/Taonn/EmailAll
+
+
+>>>>>>> 2f024ee93c9b56c20ff7af68d3ac5c4ba0c885ff
 

@@ -3,7 +3,7 @@
 # Author: @Tao.
 
 import pathlib
-
+import os
 """
 配置文件
 """
@@ -15,4 +15,13 @@ result_save_dir = relative_directory.joinpath('result')
 rule_func = list()
 
 emails = list()
-proxy = {'http': '127.0.0.1:2333', 'https': '127.0.0.1:2333'}
+proxy_str = os.getenv('proxy')
+
+if proxy_str:
+    if  not 'socks' in proxy_str:
+        proxy = {'http': '127.0.0.1:2333', 'https': '127.0.0.1:2333'}
+        proxy = {'http': proxy_str, 'https': proxy_str}
+
+    else:
+        proxy='socks5://127.0.0.1:1080'
+        proxy=proxy_str
