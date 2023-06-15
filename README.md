@@ -1,3 +1,96 @@
+for example, anker.com
+
+```
+{
+    "total": 36,
+    "emails": [
+        "phillip.fischer@anker.com",
+        "tyler.mallery@anker.com",
+        "sheyla.tian@anker.com",
+        "bd@anker.com",
+        "jaime@anker.com",
+        "jp-dm@anker.com",
+        "indi@anker.com",
+        "patrick.sun@anker.com",
+        "legal@anker.com",
+        "pr-jp@anker.com",
+        "amitjoshi@anker.com",
+        "pr@anker.com",
+        "awm@anker.com",
+        "over@anker.com",
+        "douglas@anker.com",
+        "marketing@anker.com",
+        "info@5-anker.com",
+        "support@ianker.com",
+        "alfonso.chen@anker.com",
+        "edo.campos@anker.com",
+        "cn@anker.com",
+        "desmond@anker.com",
+        "ramon@anker.com",
+        "sales@anker.com",
+        "support@anker.com",
+        "info@anker.com",
+        "drew.addington@anker.com",
+        "hiring@anker.com",
+        "horace@anker.com",
+        "romeo.luo@anker.com",
+        "info@atlasanker.com",
+        "suppliers@anker.com",
+        "keita.williams@anker.com",
+        "andres.munt@anker.com",
+        "vip.support@anker.com",
+        "influencer@anker.com"
+    ]
+}
+```
+
+shein.com
+```
+{
+    "total": 34,
+    "emails": [
+        "styles@shein.com",
+        "shopping@shein.com",
+        "hr@shein.com",
+        "kwin.liu@shein.com",
+        "30@shein.com",
+        "marylin@shein.com",
+        "alfonso@shein.com",
+        "de@shein.com",
+        "guxiaotian@shein.com",
+        "marketing@shein.com",
+        "sarita@shein.com",
+        "dispute@shein.com",
+        "wholesale@shein.com",
+        "info@shein.com",
+        "pasquale@shein.com",
+        "sales@shein.com",
+        "zhangyuxinxin@shein.com",
+        "supplier@shein.com",
+        "bradford@shein.com",
+        "rsmarketing02@shein.com",
+        "events@shein.com",
+        "marketing05@shein.com",
+        "weldon@shein.com",
+        "reviews@shein.com",
+        "fester@shein.com",
+        "sheldon@shein.com",
+        "rsmarketing01@shein.com",
+        "workwear@shein.com",
+        "admin@shein.com",
+        "data@shein.com",
+        "shangqingxu@shein.com",
+        "shaoyuan1@shein.com",
+        "publish@shein.com",
+        "email-blogger.global01@shein.com"
+    ]
+}
+```
+
+huawei.com
+```
+```
+
 <h1 align="center" >EmailAll</h1>
 
 <h3 align="center" > A powerful Email Collect tool</h3>
