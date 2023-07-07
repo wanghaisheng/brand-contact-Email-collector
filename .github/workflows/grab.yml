@@ -1,4 +1,4 @@
-name: grab brand email accounts from shein.com
+name: grab brand email accounts from domain such as shein.com
 on:
   workflow_dispatch:
     inputs:
