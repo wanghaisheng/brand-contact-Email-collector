@@ -25,6 +25,8 @@ jobs:
       - name: run demo
         run: |
           bash run.sh
+          ls -al .
+          ls result
         env:
           URL: '${{ github.event.inputs.URL }}'
       - name: Config git
