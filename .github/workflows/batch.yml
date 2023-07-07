@@ -32,7 +32,7 @@ jobs:
         run: |
           ref='${{ github.ref }}'
           tag=$(echo $ref | perl -e "print pop @{[split '/', <>]}")
-          apt-get install -y zip          
+          sudo apt-get install -y zip          
           zip -r package.zip ./result
           pwd
           ls .
